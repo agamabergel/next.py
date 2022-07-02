@@ -1,7 +1,5 @@
-import functools
-
 def is_prime(number):
-    return not True in [True if not number % i else False for i in range(2, number // 2)]
+    return not any(True if not number % i else False for i in range(2, number // 2))
 
 
 print(is_prime(2))

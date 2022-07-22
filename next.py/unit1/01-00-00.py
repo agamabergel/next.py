@@ -4,6 +4,6 @@ def a(ch, rang):
 
 
 if __name__ == "__main__":
-    print(a("%", range(23)))
+    print(a("$", range(23)))
 
     
